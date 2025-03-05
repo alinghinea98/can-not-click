@@ -62,6 +62,10 @@ button:hover {
     background-color: #218838;
 }
 
-.move-button {
-    transform: translateX(calc(-50% + var(--move-distance) * 1px));
+.move-left {
+    transform: translateX(calc(-50% - 100px));
+}
+
+.move-right {
+    transform: translateX(calc(-50% + 100px));
 }
